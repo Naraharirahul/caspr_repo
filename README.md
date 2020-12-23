@@ -1,3 +1,7 @@
+Introduction
+------------
+------------
+
 This is a github repository containing all the files required to simulate a Lidar to move in the same velocity as that of a cable robot in CASPR simulation.
 It has been tested on the following versions of ROS and MATLAB.
 
