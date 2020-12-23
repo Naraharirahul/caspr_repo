@@ -23,19 +23,20 @@ Step 4:
 At the ROS end, catkin_make the workspace in which the the files are recently cloned. 
 On the terminal, run the following command which would start the caspr-rviz interface. 
 
+```ruby
 roslaunch caspr_rviz caspr.launch
-
+```
 This will launch a new RVIZ window where the cable robot is visualized.
 
 Step 5:
 On another terminal run the following command, which opens a gazebo environment with a lidar spawning.
-
+```ruby
 roslaunch caspr_lidar sim.launch
-
+```
 To run the HDL_Slam algorithm, open a new terminal and then run the following command
-
+```ruby
 roslaunch hdl_graph_slam hdl_graph_slam.launch
-
+```
 A new rviz window needs to be opened by running rviz rviz in a new terminal. Add point cloud 2 in the rviz and then select the topic hdl_graph_slam/map_points.
 The lidar point cloud will then be seen.
 
@@ -44,9 +45,9 @@ Once all the environments and packages have been launched, the lidar in gazebo w
 
 For the UR3 robot, this position has been written in the move.py file (for another robot, it has to be changed). 
 Before running any inverse kinematics solver, the lidar has to move to the initial position of the end effector and this can be acheived my running the followinf command.
-
+```ruby
 rosrun caspr_lidar move.py
-
+```
 Once the lidar reaches the initial position of the end effector, terminate the terminal which has the move.py running.
 
 In the CASPR_GUI, click on the kinematics which opens a new window. In the trajectory drop down, make sure circle_end effector is selected. 
