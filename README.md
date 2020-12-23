@@ -2,8 +2,17 @@ Introduction
 ------------
 ------------
 
-This is a github repository containing all the files required to simulate a Lidar to move in the same velocity as that of a cable robot in CASPR simulation.
-It has been tested on the following versions of ROS and MATLAB.
+This is a github repository containing all the files required to simulate a Lidar to move in the same velocity as that of a cable robot in CASPR simulation adn map the environment using HDL graph slam package.
+
+This repo also consists of a video which shows the series of steps. 
+
+For any additional information regarding CASPR or HDL grpah SLAM, use the following link to their github repositories.
+
+https://github.com/darwinlau/CASPR
+https://github.com/darwinlau/CASPR-RViz
+https://github.com/koide3/hdl_graph_slam
+
+The repository has been tested on the following versions of ROS and MATLAB.
 
 ROS : Melodic
 MATLAB: 2020b
