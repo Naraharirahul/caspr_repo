@@ -1,0 +1,8 @@
+prefix=/home/rahul/caspr_ws/install
+
+Name: caspr_rviz
+Description: Description of caspr_rviz
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: message_runtime std_msgs geometry_msgs

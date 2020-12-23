@@ -1,0 +1,2 @@
+caspr_lidar:caspr_rviz:hdl_graph_slam:robot_library
+-DCATKIN_DEVEL_PREFIX=/home/rahul/caspr_ws/devel -DCMAKE_INSTALL_PREFIX=/home/rahul/caspr_ws/install -G Unix Makefiles

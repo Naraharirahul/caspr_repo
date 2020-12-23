@@ -1,0 +1,8 @@
+prefix=/home/rahul/caspr_ws/devel
+
+Name: robot_library
+Description: Description of robot_library
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

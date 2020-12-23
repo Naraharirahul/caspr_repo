@@ -1,0 +1,8 @@
+prefix=/home/rahul/caspr_ws/devel
+
+Name: sim_description
+Description: Description of sim_description
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: gazebo_ros geometry_msgs roscpp rviz tf urdf xacro
