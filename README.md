@@ -8,8 +8,10 @@ This repo also consists of a video which shows the series of steps.
 
 For any additional information regarding CASPR or HDL grpah SLAM, use the following link to their github repositories.
 
-https://github.com/darwinlau/CASPR
+https://github.com/darwinlau/CASPR     
+
 https://github.com/darwinlau/CASPR-RViz
+
 https://github.com/koide3/hdl_graph_slam
 
 The repository has been tested on the following versions of ROS and MATLAB.
