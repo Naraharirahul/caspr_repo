@@ -17,6 +17,7 @@ https://github.com/koide3/hdl_graph_slam
 The repository has been tested on the following versions of ROS and MATLAB.
 
 ROS : Melodic
+
 MATLAB: 2020b
 
 Following steps needs to be performed to make the lidar follow the trajectory of the cable robot.
@@ -32,9 +33,13 @@ In your Ubuntu system install MATLAB and then change the path in Matlab to the C
 Step 3:
 -------
 Note the IP of the platform that you installed CASPR by ifconfig (Linux).
+
 Call the following function to set the config of CASPR-RViz interface in CASPR:
+
 CASPRRViz_configuration.SetROSConfig('[caspr-rviz IP]','[caspr IP]');
+
 where [caspr-rviz IP] refers to the IP of your CASPR-RViz platform, and [caspr IP] refers to the IP of your CASPR platform. If both are running in same platform then they will be the same. 
+
 After setting up at the MATLAB side, enter CASPR_GUI in the MATLAB command prompt.
 
 Step 4:
